@@ -6,12 +6,12 @@
     <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js"> </script>
 </head>
 <body>
-
+    <!-- Aframe scene -->
   
     <a-scene embedded arjs renderer="precision: mediump">
-        <a-assets>
+        <!-- Declaring chart component -->
         <img id="transpImage" src="https://raw.githubusercontent.com/maaxwolf/ManuchitaLejos/master/qe.png">
-        <a-image width="1" height="1" src="#transpImage"></a-image>
+        <!-- Aframe camera -->
         <a-entity camera look-controls pointerLockEnabled>
             <a-cursor></a-cursor>
         </a-entity>
